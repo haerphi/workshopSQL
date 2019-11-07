@@ -27,10 +27,10 @@ Tu dois désormais être en possession de plusieurs informations pour continuer 
 
 #### Informations de connexion
 
-Nom de l'hôte / Hostname
-Base de données / Database
-Nom d'utilisateur / User
-Mot de passe / Password
+- Nom de l'hôte / Hostname
+- Base de données / Database
+- Nom d'utilisateur / User
+- Mot de passe / Password
 
 # Gérer sa base de données.
 
