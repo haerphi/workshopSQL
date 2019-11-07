@@ -1,4 +1,4 @@
-id,name,double_damage_from,double_damage_to,half_damage_from,half_damage_to,no_damage_from,no_damage_to
+"id","name","double_damage_from","double_damage_to","half_damage_from","half_damage_to","no_damage_from","no_damage_to"
 1,normal,{fighting},{},{},"{rock,steel}",{ghost},{ghost}
 2,fighting,"{flying,psychic,fairy}","{normal,rock,steel,ice,dark}","{rock,bug,dark}","{flying,poison,bug,psychic,fairy}",{},{ghost}
 3,flying,"{rock,electric,ice}","{fighting,bug,grass}","{fighting,bug,grass}","{rock,steel,electric}",{ground},{}
