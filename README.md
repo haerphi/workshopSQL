@@ -37,7 +37,7 @@ Une fois installé et lancé, un assistant t'aidera à configurer la connexion v
 
 # Et Maintenant, on parle Pokémons (Gotta store 'em all)
 
-Le contenu à importer dans ta base de données se trouve 'AJOUTER LE LIEN ICI'
+Le contenu à importer dans ta base de données se trouve [la](./exportsFiles/pokemons_Database.sql)
 
 Tu possèdes désormais une base de données contenant
 
