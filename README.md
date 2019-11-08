@@ -1,16 +1,5 @@
 # WorkshopSQL
 
-## idée
-
-- Apprendre la syntaxe SQL -> Préparer une "cheat sheet" ?
-
-- Créer une bd avec des informations (pour faire des select sur quelque chose)
-  => on repart sur les pokémons? :D on peut aussi préparer des fichiers SQL qu'il n'ait plus qu'a importer, genre liste de pokemons, et puis leur faire créer manuellement la table types...
-
-## A Faire
-
-- Apprendre PostgreSQL
-
 # Pour bien commencer
 
 Nous allons utiliser une base de données en PostgreSQL
@@ -53,4 +42,6 @@ Le contenu à importer dans ta base de données se trouve 'AJOUTER LE LIEN ICI'
 Tu possèdes désormais une base de données contenant
 
 - Une table contenant les Pokémons des deux premières générations,
-- Une table des types de Pokémons,
+- Une table des types de Pokémons
+- Une table contenant les Régions (Kanto et Johto)
+- Une table contenant les relations entres les types et les pokemons
