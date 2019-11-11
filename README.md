@@ -129,7 +129,7 @@ Dans cette fenêtre, tu as donc la requête (en haut) et le résultat (en bas). 
 
   </p></details>
 
-4. Récupère tous les pokémons originaires de Johto dont le nom termine par la lettre u.
+4. Récupère tous les pokémons originaires de johto dont le nom termine par la lettre u.
 
 <details><summary>Voir le résultat</summary>
   <p>
