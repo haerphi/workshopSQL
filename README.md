@@ -1,6 +1,6 @@
 # WorkshopSQL
 
-# Pour bien commencer
+## Pour bien commencer
 
 Nous allons utiliser une base de données en PostgreSQL.
 
@@ -22,7 +22,7 @@ Tu dois désormais être en possession de plusieurs informations pour continuer 
 - Nom d'utilisateur / User
 - Mot de passe / Password
 
-# Gérer sa base de données.
+## Gérer sa base de données.
 
 Pour afficher le contenu et faire des requêtes, nous te proposons un super outil:
 
@@ -36,7 +36,13 @@ C'est par ici : https://dbeaver.io/
 
 Une fois installé et lancé, un assistant t'aidera à configurer la connexion vers ta base de données.
 
-# Et Maintenant, on parle Pokémons (Gotta store 'em all)
+### Ressources utiles concernant le languages
+
+* [postgresqltutorial](http://www.postgresqltutorial.com/)
+* [postgreSQL](https://www.postgresql.org/)
+* [postgreSQL sur DevDoc.io](https://devdocs.io/postgresql~11/)
+
+## Et Maintenant, on parle Pokémons (Gotta store 'em all)
 
 Le contenu à importer dans ta base de données se trouve [là](./exportsFiles/pokemons_Database.sql)
 
@@ -47,29 +53,24 @@ Tu possèdes désormais une base de données contenant:
 - Une table contenant les Régions (Kanto et Johto)
 - Une table contenant les relations entres les types et les pokemons
 
-### Ressources pour résoudre les énigmes :
 
-* [postgresqltutorial](http://www.postgresqltutorial.com/)
-* [postgreSQL](https://www.postgresql.org/)
-* [postgreSQL sur DevDoc.io](https://devdocs.io/postgresql~11/)
-
-# La liste des "énigmes" à résoudre (ou des requêtes si tu préfères rester sérieux).
+### La liste des "énigmes" à résoudre (ou des requêtes si tu préfères rester sérieux).
 
 Nous allons te donner une série d'instructions, en français, que tu dois convertir en SQL afin d'obtenir un résultat:
 
-## Un exemple pour commencer
+#### Un exemple pour commencer
 
 Récupère la liste des noms des pokémons (Tips: La colonne s'intitule 'name')
 
-#### Résultat:
+**Résultat:**
 
 ![Exemple de requête](./img/exemple.png)
 
 Dans cette fenêtre, tu as donc la requête (en haut) et le résultat (en bas). Pour chaque énigme, tu devras obtenir le même genre de fenêtre.
 
-### Énigmes
+#### Énigmes
 
-Récupère les id ainsi que les noms des pokémons dont le poids est supérieur à 2000.
+*Récupère les id ainsi que les noms des pokémons dont le poids est supérieur à 2000.*
 
 | id  | name      |
 | --- | --------- |
@@ -84,8 +85,11 @@ Récupère les id ainsi que les noms des pokémons dont le poids est supérieur 
 | 248 | tyranitar |
 | 249 | lugia     |
 
-Récupère les id, les noms, ainsi que la taille des pokémons dont le poids est inférieur ou égal à 20 dans l'ordre croissant par taille.
+*Récupère les id, les noms, ainsi que la taille des pokémons dont le poids est inférieur ou égal à 20 dans l'ordre croissant par taille.*
 
+<details><summary>Click for result</summary>
+  <p>
+    
 | id  | name       | height |
 | --- | ---------- | ------ |
 | 50  | diglett    | 2      |
@@ -103,7 +107,9 @@ Récupère les id, les noms, ainsi que la taille des pokémons dont le poids est
 | 92  | gastly     | 13     |
 | 93  | haunter    | 16     |
 
-Récupère les noms des 3 pokémons les plus lourds
+  </p></details>
+  
+*Récupère les noms des 3 pokémons les plus lourds*
 
 | name    |
 | ------- |
@@ -111,7 +117,7 @@ Récupère les noms des 3 pokémons les plus lourds
 | steelix |
 | golem   |
 
-Récupère les noms des pokemons avec leur types (Tips: On appelle ça une double jointure)
+*Récupère les noms des pokemons avec leur types (Tips: On appelle ça une double jointure)*
 
 | name       | type   |
 | ---------- | ------ |
@@ -127,7 +133,7 @@ Récupère les noms des pokemons avec leur types (Tips: On appelle ça une doubl
 | charizard  | fire   |
 | ...        | ...    |
 
-Récupère tous les pokémons originaires de Johto dont le nom termine par la lettre u
+*Récupère tous les pokémons originaires de Johto dont le nom termine par la lettre u*
 
 | name     | type  |
 | -------- | ----- |
@@ -137,14 +143,14 @@ Récupère tous les pokémons originaires de Johto dont le nom termine par la le
 | xatu     | johto |
 | raikou   | johto |
 
-Affiche le nombre de pokémons dans chaque région
+*Affiche le nombre de pokémons dans chaque région*
 
 | Sum | name  |
 | --- | ----- |
 | 151 | kanto |
 | 200 | johto |
 
-Quel expérience vais-je gagner si je bats un magneton, un tauros et un kabuto ?
+*Quel expérience vais-je gagner si je bats un magneton, un tauros et un kabuto ?*
 
 | Total |
 | ----- |
@@ -158,4 +164,8 @@ C'est bien beau tout ça, on a appris à faire toutes sortes de requêtes et à 
 
 De quelles informations as-tu besoin ? Quel sont les types des données que tu vas stocker ? 
 
-Tu trouveras quelques infos utiles ici : (http://www.postgresqltutorial.com/postgresql-serial/)
+Tu trouveras quelques infos utiles [ici](http://www.postgresqltutorial.com/postgresql-serial/)
+
+Rédige ensuite un nouveau script qui créera cette nouvelle table, tu pourras ensuite créer quelques "INSERT" afin de remplir un peu cette nouvelle table.
+
+
