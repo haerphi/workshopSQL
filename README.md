@@ -203,7 +203,7 @@ Rédige ensuite un nouveau script qui créera cette nouvelle table, tu pourras e
 <details>
   <summary>Attention, Spoiler !</summary>
   <p>
-<blockquote>
+<code>
   
   CREATE TABLE catched (
   
@@ -229,7 +229,7 @@ Rédige ensuite un nouveau script qui créera cette nouvelle table, tu pourras e
   
   (189);
   
-  </blockquote>
+</code>
   </p>
 </details>
 
