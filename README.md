@@ -202,7 +202,7 @@ Rédige ensuite un nouveau script qui créera cette nouvelle table, tu pourras e
 
 <details>
   <summary>Attention, Spoiler !</summary>
-  <p>
+  <div>
     <code>
         CREATE TABLE catched (
           id SERIAL PRIMARY KEY,
@@ -210,6 +210,8 @@ Rédige ensuite un nouveau script qui créera cette nouvelle table, tu pourras e
           catched_at TIMESTAMP N0T NULL DEFAULT CURRENT_TIMESTAMP,
           deleted_at TIMESTAMP
         );
+    </code>
+    <code>
         INSERT INTO catched (
           pokemon_id
         ) VALUES 
@@ -217,7 +219,7 @@ Rédige ensuite un nouveau script qui créera cette nouvelle table, tu pourras e
         (25), 
         (189);
     </code>
-  </p>
+  </div>
 </details>
 
 Tu peux ensuite faire des requêtes de sélection pour ramener les pokémons capturés.
