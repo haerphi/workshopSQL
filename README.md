@@ -212,7 +212,6 @@ CREATE TABLE catched (
 );
     </code>
     
-    
     <code>
 INSERT INTO 
       catched (pokemon_id) 
