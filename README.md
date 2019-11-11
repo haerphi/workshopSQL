@@ -187,6 +187,18 @@ Dans cette fenêtre, tu as donc la requête (en haut) et le résultat (en bas). 
 | 406   |
 
   </p></details>
+  
+ 8. Requête **BONUS**. Récupère le nombre de pokémons dont le(s) type(s) infligent 'double_damage_to' aux pokémons de type Eau (water). Attention, l'information se trouve dans un tableau PostgreSQL.... et il va falloir aggréger.
+ 
+ 
+<details><summary>Voir le résultat</summary>
+  <p>
+
+| Total |
+| ----- |
+| 41    |
+
+  </p></details>
 
 ### Créons une table ! 
 
