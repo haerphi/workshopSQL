@@ -204,7 +204,6 @@ Rédige ensuite un nouveau script qui créera cette nouvelle table, tu pourras e
   <summary>Attention, Spoiler !</summary>
   <p>
 <code>
-  
   CREATE TABLE catched (
   
     id SERIAL PRIMARY KEY,
@@ -218,15 +217,11 @@ Rédige ensuite un nouveau script qui créera cette nouvelle table, tu pourras e
   );
   
   INSERT INTO catched (
-  
     pokemon_id
-    
   ) VALUES 
   
   (58),
-  
-  (25),
-  
+  (25), 
   (189);
   
 </code>
