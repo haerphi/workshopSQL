@@ -210,7 +210,8 @@ Rédige ensuite un nouveau script qui créera cette nouvelle table, tu pourras e
           catched_at TIMESTAMP N0T NULL DEFAULT CURRENT_TIMESTAMP,
           deleted_at TIMESTAMP
         );
-    </code><br />
+    </code>
+    <br />
     <code>
         INSERT INTO catched (
           pokemon_id
