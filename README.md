@@ -205,13 +205,14 @@ Rédige ensuite un nouveau script qui créera cette nouvelle table, tu pourras e
   <div>
     <code>
 CREATE TABLE catched (
-  id SERIAL PRIMARY KEY,
-  pokemon_id INT REFERENCES pokemons(id),
-  catched_at TIMESTAMP N0T NULL DEFAULT CURRENT_TIMESTAMP,
-  deleted_at TIMESTAMP 
+      id SERIAL PRIMARY KEY,
+      pokemon_id INT REFERENCES pokemons(id),
+      catched_at TIMESTAMP N0T NULL DEFAULT CURRENT_TIMESTAMP,
+      deleted_at TIMESTAMP 
 );
     </code>
-    <br />
+    
+    
     <code>
 INSERT INTO 
       catched (pokemon_id) 
