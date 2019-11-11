@@ -128,8 +128,23 @@ Dans cette fenêtre, tu as donc la requête (en haut) et le résultat (en bas). 
 | golem   |
 
   </p></details>
+
+4. Récupère tous les pokémons originaires de Johto dont le nom termine par la lettre u.
+
+<details><summary>Voir le résultat</summary>
+  <p>
+
+| name     | type  |
+| -------- | ----- |
+| chinchou | johto |
+| pichu    | johto |
+| natu     | johto |
+| xatu     | johto |
+| raikou   | johto |
+
+  </p></details>
   
-4. Récupère les noms des pokemons avec leur types (Tips: On appelle ça une double jointure).
+5. Récupère les noms des pokemons avec leur types (Tips: On appelle ça une double jointure).
 
 <details><summary>Voir le résultat</summary>
   <p>
@@ -150,21 +165,6 @@ Dans cette fenêtre, tu as donc la requête (en haut) et le résultat (en bas). 
 
   </p></details>
   
-5. Récupère tous les pokémons originaires de Johto dont le nom termine par la lettre u.
-
-<details><summary>Voir le résultat</summary>
-  <p>
-
-| name     | type  |
-| -------- | ----- |
-| chinchou | johto |
-| pichu    | johto |
-| natu     | johto |
-| xatu     | johto |
-| raikou   | johto |
-
-  </p></details>
-
 6. Affiche le nombre de pokémons dans chaque région.
 
 <details><summary>Voir le résultat</summary>
