@@ -72,6 +72,9 @@ Dans cette fenêtre, tu as donc la requête (en haut) et le résultat (en bas). 
 
 *Récupère les id ainsi que les noms des pokémons dont le poids est supérieur à 2000.*
 
+<details><summary>Voir le résultat</summary>
+  <p>
+
 | id  | name      |
 | --- | --------- |
 | 76  | golem     |
@@ -85,9 +88,11 @@ Dans cette fenêtre, tu as donc la requête (en haut) et le résultat (en bas). 
 | 248 | tyranitar |
 | 249 | lugia     |
 
+  </p></details>
+
 *Récupère les id, les noms, ainsi que la taille des pokémons dont le poids est inférieur ou égal à 20 dans l'ordre croissant par taille.*
 
-<details><summary>Click for result</summary>
+<details><summary>Voir le résultat</summary>
   <p>
     
 | id  | name       | height |
@@ -111,13 +116,21 @@ Dans cette fenêtre, tu as donc la requête (en haut) et le résultat (en bas). 
   
 *Récupère les noms des 3 pokémons les plus lourds*
 
+<details><summary>Voir le résultat</summary>
+  <p>
+
 | name    |
 | ------- |
 | snorlax |
 | steelix |
 | golem   |
 
+  </p></details>
+  
 *Récupère les noms des pokemons avec leur types (Tips: On appelle ça une double jointure)*
+
+<details><summary>Voir le résultat</summary>
+  <p>
 
 | name       | type   |
 | ---------- | ------ |
@@ -133,7 +146,12 @@ Dans cette fenêtre, tu as donc la requête (en haut) et le résultat (en bas). 
 | charizard  | fire   |
 | ...        | ...    |
 
+  </p></details>
+  
 *Récupère tous les pokémons originaires de Johto dont le nom termine par la lettre u*
+
+<details><summary>Voir le résultat</summary>
+  <p>
 
 | name     | type  |
 | -------- | ----- |
@@ -143,18 +161,30 @@ Dans cette fenêtre, tu as donc la requête (en haut) et le résultat (en bas). 
 | xatu     | johto |
 | raikou   | johto |
 
+  </p></details>
+
 *Affiche le nombre de pokémons dans chaque région*
+
+<details><summary>Voir le résultat</summary>
+  <p>
 
 | Sum | name  |
 | --- | ----- |
 | 151 | kanto |
 | 200 | johto |
 
+  </p></details>
+
 *Quel expérience vais-je gagner si je bats un magneton, un tauros et un kabuto ?*
+
+<details><summary>Voir le résultat</summary>
+  <p>
 
 | Total |
 | ----- |
 | 406   |
+
+  </p></details>
 
 ### Créons une table ! 
 
