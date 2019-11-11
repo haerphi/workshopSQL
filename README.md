@@ -204,20 +204,21 @@ Rédige ensuite un nouveau script qui créera cette nouvelle table, tu pourras e
   <summary>Attention, Spoiler !</summary>
   <div>
     <code>
-      CREATE TABLE catched (
-        id SERIAL PRIMARY KEY,
-        pokemon_id INT REFERENCES pokemons(id),
-        catched_at TIMESTAMP N0T NULL DEFAULT CURRENT_TIMESTAMP,
-        deleted_at TIMESTAMP 
-      );
+CREATE TABLE catched (
+  id SERIAL PRIMARY KEY,
+  pokemon_id INT REFERENCES pokemons(id),
+  catched_at TIMESTAMP N0T NULL DEFAULT CURRENT_TIMESTAMP,
+  deleted_at TIMESTAMP 
+);
     </code>
     <br />
     <code>
-      INSERT INTO catched (pokemon_id) 
-      VALUES 
-        (58),
-        (25), 
-        (189);
+INSERT INTO 
+      catched (pokemon_id) 
+VALUES 
+      (58),
+      (25), 
+      (189);
     </code>
   </div>
 </details>
