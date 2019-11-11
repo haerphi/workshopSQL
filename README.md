@@ -210,9 +210,7 @@ CREATE TABLE catched (
       catched_at TIMESTAMP N0T NULL DEFAULT CURRENT_TIMESTAMP,
       deleted_at TIMESTAMP 
 );
-    </code>
-    
-    <code>
+
 INSERT INTO 
       catched (pokemon_id) 
 VALUES 
