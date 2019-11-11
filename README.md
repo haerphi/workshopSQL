@@ -149,3 +149,13 @@ Quel expérience vais-je gagner si je bats un magneton, un tauros et un kabuto ?
 | Total |
 | ----- |
 | 406   |
+
+### Créons une table ! 
+
+C'est bien beau tout ça, on a appris à faire toutes sortes de requêtes et à ramener toute sortes d'informations, mais on a pas vu comment on créait ou insérait de nouvelles données. C'est par ici :
+
+#### Imagine une table qui te permettrait de stocker les pokémons que tu as attrapé. 
+
+De quelles informations as-tu besoin ? Quel sont les types des données que tu vas stocker ? 
+
+Tu trouveras quelques infos utiles ici : (http://www.postgresqltutorial.com/postgresql-serial/)
