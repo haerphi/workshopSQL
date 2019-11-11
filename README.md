@@ -173,7 +173,7 @@ Dans cette fenêtre, tu as donc la requête (en haut) et le résultat (en bas). 
 | Sum | name  |
 | --- | ----- |
 | 151 | kanto |
-| 200 | johto |
+| 100 | johto |
 
   </p></details>
 
