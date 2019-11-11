@@ -1,4 +1,4 @@
-# WorkshopSQL
+# Workshop SQL
 
 ## Pour bien commencer
 
@@ -45,6 +45,8 @@ Une fois installé et lancé, un assistant t'aidera à configurer la connexion v
 ## Et Maintenant, on parle Pokémons (Gotta store 'em all)
 
 Le contenu à importer dans ta base de données se trouve [là](./exportsFiles/pokemons_Database.sql)
+
+Avec DBeaver, tu peux importer directement le script et l'exécuter, ou copier-coller le texte dans un "Nouvel Editeur SQL"
 
 Tu possèdes désormais une base de données contenant:
 
@@ -196,6 +198,32 @@ De quelles informations as-tu besoin ? Quel sont les types des données que tu v
 
 Tu trouveras quelques infos utiles [ici](http://www.postgresqltutorial.com/postgresql-serial/)
 
-Rédige ensuite un nouveau script qui créera cette nouvelle table, tu pourras ensuite créer quelques "INSERT" afin de remplir un peu cette nouvelle table.
+Rédige ensuite un nouveau script qui créera cette nouvelle table, tu pourras ensuite créer quelques "INSERT" afin de remplir un peu cette nouvelle table. Il n'y a pas "une" bonne réponse à cet exercice, on peut néanmoins montrer un exemple qui fonctionne : 
+
+<details>
+  <summary>Attention, Spoiler !</summary>
+  <p>
+  ```
+    CREATE TABLE catched (
+      id SERIAL PRIMARY KEY,
+      pokemon_id INT REFERENCES pokemons(id),
+      catched_at TIMESTAMP N0T NULL DEFAULT CURRENT_TIMESTAMP,
+      deleted_at TIMESTAMP
+    );
+    INSERT INTO catched (
+      pokemon_id
+    ) VALUES 
+    (58),
+    (25),
+    (189);
+   ```
+  </p>
+</details>
+
+Tu peux ensuite faire des requêtes de sélection pour ramener les pokémons capturés.
+
+### C'est la fin !
+
+Ce Workshop vous à été présenté par Philippe Haerens et Lindsay Vannebenne dans le cadre de la formation BeCode, de la promotion Hamilton 2.12. N'hésitez pas a partager votre ressenti, les points positifs et négatifs, c'est important pour nous aussi.
 
 
