@@ -47,11 +47,11 @@ Tu possèdes désormais une base de données contenant:
 - Une table contenant les Régions (Kanto et Johto)
 - Une table contenant les relations entres les types et les pokemons
 
-# Ressources pour résoudre les énigmes :
+### Ressources pour résoudre les énigmes :
 
-[postgresqltutorial](http://www.postgresqltutorial.com/)
-[postgreSQL](https://www.postgresql.org/)
-[postgreSQL sur DevDoc.io](https://devdocs.io/postgresql~11/)
+* [postgresqltutorial](http://www.postgresqltutorial.com/)
+* [postgreSQL](https://www.postgresql.org/)
+* [postgreSQL sur DevDoc.io](https://devdocs.io/postgresql~11/)
 
 # La liste des "énigmes" à résoudre (ou des requêtes si tu préfères rester sérieux).
 
