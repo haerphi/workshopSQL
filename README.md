@@ -70,7 +70,7 @@ Dans cette fenêtre, tu as donc la requête (en haut) et le résultat (en bas). 
 
 #### Énigmes
 
-*Récupère les id ainsi que les noms des pokémons dont le poids est supérieur à 2000.*
+1. Récupère les id ainsi que les noms des pokémons dont le poids est supérieur à 2000.
 
 <details><summary>Voir le résultat</summary>
   <p>
@@ -90,7 +90,7 @@ Dans cette fenêtre, tu as donc la requête (en haut) et le résultat (en bas). 
 
   </p></details>
 
-*Récupère les id, les noms, ainsi que la taille des pokémons dont le poids est inférieur ou égal à 20 dans l'ordre croissant par taille.*
+2. Récupère les id, les noms, ainsi que la taille des pokémons dont le poids est inférieur ou égal à 20 dans l'ordre croissant par taille.
 
 <details><summary>Voir le résultat</summary>
   <p>
@@ -114,7 +114,7 @@ Dans cette fenêtre, tu as donc la requête (en haut) et le résultat (en bas). 
 
   </p></details>
   
-*Récupère les noms des 3 pokémons les plus lourds*
+3. Récupère les noms des 3 pokémons les plus lourds.
 
 <details><summary>Voir le résultat</summary>
   <p>
@@ -127,7 +127,7 @@ Dans cette fenêtre, tu as donc la requête (en haut) et le résultat (en bas). 
 
   </p></details>
   
-*Récupère les noms des pokemons avec leur types (Tips: On appelle ça une double jointure)*
+4. Récupère les noms des pokemons avec leur types (Tips: On appelle ça une double jointure).
 
 <details><summary>Voir le résultat</summary>
   <p>
@@ -148,7 +148,7 @@ Dans cette fenêtre, tu as donc la requête (en haut) et le résultat (en bas). 
 
   </p></details>
   
-*Récupère tous les pokémons originaires de Johto dont le nom termine par la lettre u*
+5. Récupère tous les pokémons originaires de Johto dont le nom termine par la lettre u.
 
 <details><summary>Voir le résultat</summary>
   <p>
@@ -163,7 +163,7 @@ Dans cette fenêtre, tu as donc la requête (en haut) et le résultat (en bas). 
 
   </p></details>
 
-*Affiche le nombre de pokémons dans chaque région*
+6. Affiche le nombre de pokémons dans chaque région.
 
 <details><summary>Voir le résultat</summary>
   <p>
@@ -175,7 +175,7 @@ Dans cette fenêtre, tu as donc la requête (en haut) et le résultat (en bas). 
 
   </p></details>
 
-*Quel expérience vais-je gagner si je bats un magneton, un tauros et un kabuto ?*
+7. Quel expérience vais-je gagner si je bats un magneton, un tauros et un kabuto ?
 
 <details><summary>Voir le résultat</summary>
   <p>
