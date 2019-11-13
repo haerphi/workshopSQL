@@ -239,4 +239,4 @@ Tu peux ensuite faire des requêtes de sélection pour ramener les pokémons cap
 
 Ce Workshop vous à été présenté par Philippe Haerens et Lindsay Vannebenne dans le cadre de la formation BeCode, de la promotion Hamilton 2.12. N'hésitez pas a partager votre ressenti, les points positifs et négatifs, c'est important pour nous aussi.
 
-
+Vous pourrez trouver les solutions <a href="./solus.sql">ici</a>
